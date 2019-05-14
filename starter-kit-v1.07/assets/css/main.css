@@ -1,0 +1,73 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.background-peach {
+	background-color: peachpuff;
+}
+
+.background-lightgreen {
+	background-color: lightgreen;
+}
+
+.background-orange {
+	background-color: orange;
+}
+
+.background-black {
+	background-color:black;
+}
+
+.main {
+	padding: 10px;
+}
+
+.title {
+	font-size: 64px;
+}
+
+.width-50 {
+	width:50%;
+}
+
+img {
+	width: 50%;
+}
+
+.logo {
+	text-align:center;
+}
+
+.grid {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.col {
+	padding:20px;
+	margin-top:15%;
+}
+
+.content {
+	padding:20px;
+	text-align:center;
+}
+
+.w-1of1 {
+	flex:0 0 100%;
+}
+
+.blurOut img {
+	transition:all 1s ease;
+	-webkit-filter:blur(10px);
+	border:5px solid black;
+}
+
+.blurOut img:hover {
+	-webkit-filter:blur(0px);
+}
