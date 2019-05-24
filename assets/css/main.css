@@ -1,26 +1,14 @@
+/** {
+	outline:1px solid red;
+}*/
+
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
 }
 
-a {
-	color:red;
-}
-
-.background-peach {
-	background-color: peachpuff;
-}
-
-.background-lightgreen {
-	background-color: lightgreen;
-}
-
-.background-orange {
-	background-color: orange;
-}
-
-.background-black {
-	background-color:black;
+.click {
+	cursor: url('assets/images/click-cursor-02.cur'),help;
 }
 
 .main {
@@ -43,31 +31,21 @@ img {
 	text-align:center;
 }
 
-.grid {
-	display:flex;
-	flex-wrap: wrap;
-}
-
-.col {
-	padding:20px;
-	margin-top:15%;
-}
-
-.content {
-	padding:20px;
-	text-align:center;
-}
-
-.w-1of1 {
-	flex:0 0 100%;
-}
-
 .blurOut img {
-	transition:all 1s ease;
-	-webkit-filter:blur(10px);
-	border:5px solid black;
+	display:inline-block;
+	transition:all 3s ease;
+	-webkit-filter:blur(17px);
 }
 
 .blurOut img:hover {
+	transition:all 1s ease;
 	-webkit-filter:blur(0px);
+}
+
+.video {
+  display:inline-block;
+  right: 0;
+  bottom: 0;
+  width:100vw;
+  height:100vh;
 }
