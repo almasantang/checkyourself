@@ -1,0 +1,62 @@
+/** {
+	outline:1px solid red;
+}*/
+
+body {
+
+	font-size:52px;
+/*	font-family: gitan-latin, sans-serif;
+	font-weight: 400;
+	font-style: normal;*/
+	font-family: gitan-latin, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	cursor:help;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+	cursor:help;
+}
+
+.bg-orange {
+	background-color:#ff4f00;
+}
+
+.menu-1 {
+	padding:30px;
+	padding-left:50px;
+}
+
+.menu-1:hover {
+	font-family: gitan-latin, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+.menu-2 {
+	padding:30px;
+	padding-left:50px;
+}
+
+.menu-2:hover {
+	font-family: gitan-latin, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+.menu-3 {
+	padding:30px;
+	padding-left:50px;
+}
+
+.menu-3:hover {
+	font-family: gitan-latin, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+.menu {
+	margin-top:15%;
+}
