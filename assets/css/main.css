@@ -1,23 +1,17 @@
 /** {
 	outline:1px solid red;
-}*/
-
+}
+*/
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+	background-color:#1f1e1e;
 }
 
-.bg-orange {
-	background-color:#ff4f00;
-}
-
-.bg-black {
-	background-color:black;
-}
 
 /*CURSOR*/
 .click {
-	cursor: url(https://pbs.twimg.com/media/D8Dlt30VsAA9Hhm.png) 70 30, help;
+	cursor: url(https://pbs.twimg.com/media/D8Dlt30VsAA9Hhm.png) 70 30, auto;
 }
 /*CURSOR*/
 

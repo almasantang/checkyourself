@@ -1,9 +1,11 @@
 .bg-orange {
-	background-color:orange;
+	background-color:#ff4f00;
 }
 
 .bg-black {
 	background-color:black;
 }
-/*
-background-color:#ff4f00;*/
+
+.bg-grey {
+	background-color:#1f1e1e;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Check Yourself</title>
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+  	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/menu.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/colour.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/page-3.css" type="text/css">
+  	<script src="assets/js/jquery-3.4.1.min.js"></script>
+  	<script src="assets/js/main.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/hne3lwz.css">
+</head>
+<body class="bg-grey">
+	<!-- Question number 1 -->
+	<div class="question">
+		Do you know what bullying is?
+	</div>
+	<div class="slider" >
+		<input type="range" id = "bitch" name="points" min=1 max=5>
+	</div>
+	
+
+
+	<!-- Question number 2 --> 
+	<div class="question">
+		Do you know what bullying is hahahhahahaha 
+	</div>
+	<div class="slider" >
+		<input type="range" id = "bitch2" name="points" min=1 max=5>
+	</div>
+
+	<!-- Question number 3 --> 
+	<div class="question">
+		Do you know what bullying is lmao 
+	</div>
+	<div class="slider" >
+		<input type="range" id = "bitch3" name="points" min=1 max=5>
+	</div>
+
+	<!-- Average score (test attempt) --> 
+	<div class="submit">
+		<button class = "light" onclick="bitch()"> Am I a bully? </button>
+	</div>
+
+	<p id = "demo"></p>
+	<script type="text/javascript"> 
+		function bitch(){
+			var bitch = document.getElementById("bitch");
+			var bitch2 = document.getElementById("bitch2"); 
+			var bitch3 = document.getElementById("bitch3"); 
+			var currentValue1 = parseInt(bitch.value);
+			var currentValue2 = parseInt(bitch2.value); 
+			var currentValue3 = parseInt(bitch3.value);  
+			var stuff = (currentValue1 + currentValue2 + currentValue3)/3 * 20;
+			var rounded = Math.round(stuff);  
+			document.getElementById("demo").innerHTML = "Your bully score is" + " " + rounded +"%"; 
+		}	
+	</script>
+	
+</body>
+</html>
