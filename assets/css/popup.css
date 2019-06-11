@@ -1,0 +1,404 @@
+.pop-up-small {
+  border: 1px solid white;
+  border-radius: 1px;
+  height: 100px;
+  width: 300px;
+  background: #181818;
+  transition: all 0.3s ease;
+  position: absolute;
+}
+
+.pop-up-med {
+  border: 1px solid white;
+  border-radius: 1px;
+  height: 125px;
+  width: 300px;
+  background: #181818;
+  transition: all 0.3s ease;
+  position: absolute;
+}
+
+.pop-up-med-2 {
+  border: 1px solid white;
+  border-radius: 1px;
+  height: 200px;
+  width: 310px;
+  background: #181818;
+  transition: all 0.3s ease;
+  position: absolute;
+}
+
+.pop-up {
+  border: 1px solid white;
+  border-radius: 1px;
+  height: 200px;
+  width: 500px;
+  background: #181818;
+  transition: all 0.3s ease;
+  position: absolute;
+}
+
+.top-border {
+/*  background: repeating-linear-gradient(
+  120deg,
+  #000,
+  #000 2px,
+  #fff 2px,
+  #fff 4px*/
+);
+  height: 20px;
+  border-bottom: 1px solid white;
+}
+
+.message {
+	font-family: myriad-pro-semiextended, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size:16px;
+  color: #ff4f00;
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+/*POPUP POSITION */
+.pop-up1 {
+  top: 15vh;
+  left: 22vw;
+}
+
+.pop-up2 {
+  top: 25vh;
+  left: 15vw;
+}
+
+.pop-up3 {
+  top: 35vh;
+  left: 26vw;
+}
+
+.pop-up4 {
+  top: 55vh;
+  left: 36vw;
+}
+
+.pop-up5 {
+  top: 45vh;
+  left: 43vw;
+}
+
+.pop-up6 {
+  top: 62vh;
+  left: 83vw;
+}
+
+.pop-up7 {
+	top:20vh;
+	left:100vw;
+}
+
+.pop-up8 {
+	top:13vh;
+	left:96vw;
+}
+
+.pop-up9 {
+	top:45vh;
+	left:200vw;
+}
+
+.pop-up10 {
+	top:34vh;
+	left:65vw;
+}
+
+.pop-up11 {
+	top:48vh;
+	left:150vw;
+}
+
+.pop-up12 {
+	top:52vh;
+	left:160vw;
+}
+
+.pop-up13 {
+	top:55vh;
+	left:155vw;
+}
+
+.pop-up14 {
+	top:10vh;
+	left:170vw;
+}
+
+.pop-up15 {
+	top:27vh;
+	left:245vw;
+}
+
+.pop-up16 {
+	top:12vh;
+	left:220vw;
+}
+
+.pop-up17 {
+	top:8vh;
+	left:270vw;
+}
+
+.pop-up18 {
+	top:37vh;
+	left:320vw;
+}
+
+.pop-up19 {
+	top:40vh;
+	left:300vw;
+}
+
+.pop-up20 {
+	top:56vh;
+	left:290vw;
+}
+
+
+/*CLOSE BUTTONS*/
+.close-button-1 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-2 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-3 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-4 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-5 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-6 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-7 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-8 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-9 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-10 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-11 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-12 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-13 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-14 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-15 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-16 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-17 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-18 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-19 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.close-button-20 {
+  height: 15px;
+  width: 15px;
+  background: #ff4f00;
+  border-radius: 100%;
+  border:1px solid black;
+  position: relative;
+  top: 1px;
+  left: 3px;
+  cursor: pointer;
+}
