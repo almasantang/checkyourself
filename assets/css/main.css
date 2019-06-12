@@ -36,12 +36,14 @@ img {
 	display:inline-block;
 	transition:all 3s ease;
 	-webkit-filter:blur(17px);
+	filter:blur(17px);
 	z-index:2;
 }
 
 .blurOut img:hover {
 	transition:all 1s ease;
 	-webkit-filter:blur(0px);
+	filter:blur(0px);
 	z-index:2;
 }
 /*LOGO ON LANDING PAGE*/
