@@ -53,6 +53,12 @@
 	margin-left:50%;
 }
 
+.offset-left-2 {
+	padding-top:10vh;
+	margin-top:0%;
+	margin-left:50%;
+}
+
 .w-1of1 {
 	flex:0 0 100%;
 }

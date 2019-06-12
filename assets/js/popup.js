@@ -136,3 +136,105 @@ $(document).ready(function(){
     $(".pop-up20").hide();
   });
 });
+
+$(document).ready(function(){
+  $(".close-button-21").on("click", function(){
+    $(".pop-up21").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-22").on("click", function(){
+    $(".pop-up22").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-23").on("click", function(){
+    $(".pop-up23").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-24").on("click", function(){
+    $(".pop-up24").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-25").on("click", function(){
+    $(".pop-up25").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-26").on("click", function(){
+    $(".pop-up26").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-27").on("click", function(){
+    $(".pop-up27").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-28").on("click", function(){
+    $(".pop-up28").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-29").on("click", function(){
+    $(".pop-up29").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-30").on("click", function(){
+    $(".pop-up30").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-31").on("click", function(){
+    $(".pop-up31").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-32").on("click", function(){
+    $(".pop-up32").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-33").on("click", function(){
+    $(".pop-up33").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-34").on("click", function(){
+    $(".pop-up34").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-35").on("click", function(){
+    $(".pop-up35").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-36").on("click", function(){
+    $(".pop-up36").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".close-button-37").on("click", function(){
+    $(".pop-up37").hide();
+  });
+});

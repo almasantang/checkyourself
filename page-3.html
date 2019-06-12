@@ -1,64 +1,307 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
+	    <meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Check Yourself</title>
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
   	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/menu.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/page-1.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/grid.css" type="text/css">    
     <link rel="stylesheet" href="assets/css/colour.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/scrolling-text.css" type="text/css">
     <link rel="stylesheet" href="assets/css/page-3.css" type="text/css">
   	<script src="assets/js/jquery-3.4.1.min.js"></script>
   	<script src="assets/js/main.js"></script>
+    <script src="assets/js/slide.js"></script>
+    <script src="assets/js/check.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/hne3lwz.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ulz4eor.css">
 </head>
-<body class="bg-grey">
-	<!-- Question number 1 -->
-	<div class="question">
-		Do you know what bullying is?
-	</div>
-	<div class="slider" >
-		<input type="range" id = "bitch" name="points" min=1 max=5>
-	</div>
-	
+<body>
+
+	<div class="menu-nav"><img src="assets/images/menu.png"></div>
+    <div class="scrolling-text">
+          <marquee behavior="scroll" direction="left" scrollamount="14">
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+	            &ensp;&ensp;&ensp;
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+	            &ensp;&ensp;&ensp;
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+	            &ensp;&ensp;&ensp;
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+	            &ensp;&ensp;&ensp;
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+	            &ensp;&ensp;&ensp;
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+	            &ensp;&ensp;&ensp;
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+	            &ensp;&ensp;&ensp;
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+	            &ensp;&ensp;&ensp;
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+	            &ensp;&ensp;&ensp;
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+	            &ensp;&ensp;&ensp;
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+	            &ensp;&ensp;&ensp;
+	            check yourself.
+	            &ensp;&ensp;&ensp;
+	            are you a bully?
+          </marquee>
+    </div>
+
+    <!-- ABOUT STARTS HERE -->
+      <div class="about">
+        <div class="contents">
+            <a class ="menu-link" href="page-1-facts.html">DO YOU REALLY KNOW WHAT BULLYING IS?</a>
+            <br><br><br>
+            <a class ="menu-link" href="page-2.html">HEAR ME OUT</a>
+            <br><br><br>
+            <a class ="menu-link on-it" href="page-3.html">CHECK YOURSELF</a>
+            <br><br><br><br>
+            <div class="close-link">
+          (close menu)
+        </div>
+        </div>
+      </div>
+      <!-- ABOUT ENDS HERE -->
+
+    <!-- start page here -->
+    <div class="grid">
+      <div class="col w-1of3">
+        <div class="content stay">
+          <div class="title-1">CHECK</div>
+          <div class="title-2">YOURSELF</div>
+          <div class="title-3">ARE YOU A BULLY?</div>
+        </div> 
+      </div>
+
+      <div class="col w-2of3">
+        <div class="content-1 nav">
+          <div class="nav-item-1"></div>
+        </div>
+      </div>
+  </div>
+
+        <!-- QUESTIONS -->
+        <div class="content-2 offset-left-2">
+
+          <!-- Question number 1 -->
+          <div class="question">
+            <br><br>
+            I've bullied someone before.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch" name="points">
+          </div>
+          
+          <!-- Question number 2 --> 
+          <div class="question">
+            <br><br>
+            I like to see other people fail. 
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch2" name="points">
+          </div>
+
+          <!-- Question number 3 --> 
+          <div class="question">
+            <br><br>
+            Everything is a competition to me.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch3" name="points">
+          </div>
+
+          <!-- Question number 4 --> 
+          <div class="question">
+            <br><br>
+            I want to be known as tough.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch4" name="points">
+          </div>
+
+          <!-- Question number 5 --> 
+          <div class="question">
+            <br><br>
+            I am bossy.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch5" name="points">
+          </div>
+
+          <!-- Question number 6 --> 
+          <div class="question">
+            <br><br>
+            I exercise power just because I can.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch6" name="points">
+          </div>
+
+          <!-- Question number 7 --> 
+          <div class="question">
+            <br><br>
+            I've excluded someone out of a friendship group.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch7" name="points">
+          </div>
+
+          <!-- Question number 8 --> 
+          <div class="question">
+            <br><br>
+            I've made fun of someone because of their appearances, including their body type. 
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch8" name="points">
+          </div>
+
+          <!-- Question number 9 --> 
+          <div class="question">
+            <br><br>
+            I've made fun of someone based on their race, skin colour, or ethnicity.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch9" name="points">
+          </div>
+
+          <!-- Question number 10 --> 
+          <div class="question">
+            <br><br>
+            I've said "relax, it was just a joke" after being mean to someone, knowing well that it probably hurt their feelings.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch10" name="points">
+          </div>
+
+          <!-- Question number 11 --> 
+          <div class="question">
+            <br><br>
+            I've continued to make fun of someone even though they told me to stop. 
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch11" name="points">
+          </div>
+
+          <!-- Question number 12 --> 
+          <div class="question">
+            <br><br>
+            I've said bad things about someone behind their back.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch12" name="points">
+          </div>
+
+           <!-- Question number 13 --> 
+          <div class="question">
+            <br><br>
+            I've spread rumours about someone.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch13" name="points">
+          </div>
+
+          <!-- Question number 14 --> 
+          <div class="question">
+            <br><br>
+            Someone told me their secret and I went on and tell other people about it, even when they specifically said not to.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch14" name="points">
+          </div>
+
+           <!-- Question number 15 --> 
+          <div class="question">
+            <br><br>
+            I've made unnecessary comments about someone on social media.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch15" name="points">
+          </div>
+
+           <!-- Question number 16 --> 
+          <div class="question">
+            <br><br>
+            I think I might have bullied someone and didn't even realise it.
+          </div>
+          <div class="slider" >
+            <input class="actual-slider" type="range" min=0 max=10 id = "bitch16" name="points">
+          </div>
+
+        <!-- Average score (test attempt) --> 
+        <div class="submit" >
+          <button class = "light" onclick="bitch()"> Am I a bully?</button>
+        </div>
+
+        <a href="page-4.html"><div class="result" id = "demo"></div></a>
 
 
-	<!-- Question number 2 --> 
-	<div class="question">
-		Do you know what bullying is hahahhahahaha 
-	</div>
-	<div class="slider" >
-		<input type="range" id = "bitch2" name="points" min=1 max=5>
-	</div>
+        <script type="text/javascript"> 
+          function bitch(){
+      var bitch = document.getElementById("bitch");
+      var bitch2 = document.getElementById("bitch2"); 
+      var bitch3 = document.getElementById("bitch3");
+      var bitch4 = document.getElementById("bitch4");
+      var bitch5 = document.getElementById("bitch5"); 
+      var bitch6 = document.getElementById("bitch6"); 
+      var bitch7 = document.getElementById("bitch7");
+      var bitch8 = document.getElementById("bitch8");
+      var bitch9 = document.getElementById("bitch9");
+      var bitch10 = document.getElementById("bitch10");
+      var bitch11 = document.getElementById("bitch11"); 
+      var bitch12 = document.getElementById("bitch12");
+      var bitch13 = document.getElementById("bitch13");
+      var bitch14 = document.getElementById("bitch14");
+      var bitch15 = document.getElementById("bitch15");
+      var bitch16 = document.getElementById("bitch16");
+      var currentValue1 = parseInt(bitch.value);
+      var currentValue2 = parseInt(bitch2.value); 
+      var currentValue3 = parseInt(bitch3.value);  
+      var currentValue4 = parseInt(bitch4.value);
+      var currentValue5 = parseInt(bitch5.value); 
+      var currentValue6 = parseInt(bitch6.value);  
+      var currentValue7 = parseInt(bitch7.value);
+      var currentValue8 = parseInt(bitch8.value);  
+      var currentValue9 = parseInt(bitch9.value);
+      var currentValue10 = parseInt(bitch10.value);
+      var currentValue11 = parseInt(bitch11.value); 
+      var currentValue12 = parseInt(bitch12.value);  
+      var currentValue13 = parseInt(bitch13.value);
+      var currentValue14 = parseInt(bitch14.value);  
+      var currentValue15 = parseInt(bitch15.value);
+      var currentValue16 = parseInt(bitch16.value);
+      var stuff = (currentValue1 + currentValue2 + currentValue3 + currentValue4 + currentValue5 + currentValue6 + currentValue7 + currentValue8 + currentValue9 + currentValue10 + currentValue11 + currentValue12 + currentValue13 + currentValue14 + currentValue15 + currentValue16)/16 * 10;
+      var rounded = Math.round(stuff);  
+      document.getElementById("demo").innerHTML = "YOU ARE" + " " + rounded + "% A BULLY."; 
 
-	<!-- Question number 3 --> 
-	<div class="question">
-		Do you know what bullying is lmao 
-	</div>
-	<div class="slider" >
-		<input type="range" id = "bitch3" name="points" min=1 max=5>
-	</div>
+    } 
 
-	<!-- Average score (test attempt) --> 
-	<div class="submit">
-		<button class = "light" onclick="bitch()"> Am I a bully? </button>
-	</div>
+        </script>
 
-	<p id = "demo"></p>
-	<script type="text/javascript"> 
-		function bitch(){
-			var bitch = document.getElementById("bitch");
-			var bitch2 = document.getElementById("bitch2"); 
-			var bitch3 = document.getElementById("bitch3"); 
-			var currentValue1 = parseInt(bitch.value);
-			var currentValue2 = parseInt(bitch2.value); 
-			var currentValue3 = parseInt(bitch3.value);  
-			var stuff = (currentValue1 + currentValue2 + currentValue3)/3 * 20;
-			var rounded = Math.round(stuff);  
-			document.getElementById("demo").innerHTML = "Your bully score is" + " " + rounded +"%"; 
-		}	
-	</script>
-	
 </body>
 </html>
