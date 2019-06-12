@@ -29,17 +29,20 @@ img {
 /*LOGO ON LANDING PAGE*/
 .logo {
 	text-align:center;
+	z-index:2;
 }
 
 .blurOut img {
 	display:inline-block;
 	transition:all 3s ease;
 	-webkit-filter:blur(17px);
+	z-index:2;
 }
 
 .blurOut img:hover {
 	transition:all 1s ease;
 	-webkit-filter:blur(0px);
+	z-index:2;
 }
 /*LOGO ON LANDING PAGE*/
 
@@ -49,4 +52,5 @@ img {
   bottom: 0;
   width:100vw;
   height:100vh;
+  z-index:-1;
 }
