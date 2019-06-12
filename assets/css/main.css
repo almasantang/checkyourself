@@ -23,7 +23,11 @@ body {
 }
 
 img {
-	width: 50%;
+	width: 100%;
+}
+
+img .logo  {
+	width:100%;
 }
 
 /*LOGO ON LANDING PAGE*/

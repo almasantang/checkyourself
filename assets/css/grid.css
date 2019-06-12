@@ -25,8 +25,10 @@
 .content-logo {
 	padding:20px;
 	text-align:center;
+	justify-content: center;
 	position:fixed;
-	top:25%;
+	top:25vh;
+	left:25vw;
 }
 
 .content-2 {
