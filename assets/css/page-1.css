@@ -3,10 +3,6 @@ body {
 	background-color:black;
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
 a {
 	text-decoration:none;
 	color:#ff4f00;
